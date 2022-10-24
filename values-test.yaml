@@ -1,0 +1,8 @@
+airflow:
+  
+  # For installing the chart using ArgoCD these variables should be set to false
+  createUserJob:
+    useHelmHooks: false
+
+  migrateDatabaseJob:
+    useHelmHooks: false
