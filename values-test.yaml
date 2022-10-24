@@ -1,4 +1,5 @@
 airflow:
+  airflowVersion: "2.3.4"
   
   # For installing the chart using ArgoCD these variables should be set to false
   createUserJob:
